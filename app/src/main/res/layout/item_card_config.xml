@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/card_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Card" />
+
+    <EditText
+        android:id="@+id/label_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Texto do card (opcional)" />
+
+    <Switch
+        android:id="@+id/show_text_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar texto" />
+
+    <Switch
+        android:id="@+id/persist_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvar estado (lido/não lido)"
+        android:checked="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="#DDDDDD" />
+
+</LinearLayout>
